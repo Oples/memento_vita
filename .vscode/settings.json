@@ -1,4 +1,12 @@
 {
     "i18n-ally.localesPaths": ["./src/locales"],
-    "i18n-ally.keystyle": "flat"
+    "i18n-ally.keystyle": "flat",
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#0B7034",
+        "statusBar.background": "#0B7034",
+        "statusBar.foreground": "#ffffff"
+    },
+    "cSpell.words": [
+        "colord"
+    ]
 }

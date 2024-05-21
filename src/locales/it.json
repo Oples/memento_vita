@@ -1,4 +1,8 @@
 {
-  "example_card": "Card",
-  "title": "Memento Vita"
+    "example_card": "Card",
+    "title": "Memento Vita",
+    "groups": "Gruppi",
+    "settings": "Impostazioni",
+    "coming_soon": "Prossimamente...",
+    "fullscreen": "Modalità pieno schermo"
 }

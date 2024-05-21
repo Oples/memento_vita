@@ -2,5 +2,8 @@
   "example_card": "Card",
   "title": "Memento Vita",
   "groups": "Groups",
-  "settings": "Settings"
+  "settings": "Settings",
+  "coming_soon": "Coming soon...",
+  "fullscreen": "Fullscreen",
+  "reset": "Reset"
 }

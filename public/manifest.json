@@ -1,0 +1,50 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "name": "Memento Vita",
+    "short_name": "Memento Vita",
+    "description": "Memento Vita is an application that allows you to organize your links in groups.",
+    "default_locale": "en",
+    "update_url": "https://github.com/Utente/memento_vita/raw/main/public/manifest.json",
+    "homepage_url": "https://github.com/Utente/memento_vita",
+    "icons": [
+        {
+            "src": "/1000080942.png",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "permissions": [
+        "storage",
+        "unlimitedStorage",
+        "tabs",
+        "activeTab",
+        "scripting",
+        "contextMenus",
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess",
+        "declarativeNetRequestFeedback",
+        "webRequest",
+        "webRequestBlocking",
+        "webNavigation",
+        "webRequestBlocking"
+    ],
+    "browser_action": {
+        "default_title": "Memento Vita",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "options_page": "options.html",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+}

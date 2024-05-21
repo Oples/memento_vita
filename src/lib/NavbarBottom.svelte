@@ -3,7 +3,7 @@
     import NavButton from "./NavButton.svelte";
 </script>
 
-<nav class="navbar">
+<nav class="navbar-bottom">
     <div class="nav-buttons">
         <NavButton title={$t("home")} />
         <NavButton title={$t("about")} />
@@ -12,7 +12,7 @@
 </nav>
 
 <style>
-    .navbar {
+    .navbar-bottom {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -20,7 +20,7 @@
         background-color: hsla(120, 1%, 14%, 0.858);
         position: sticky;
         bottom: 0;
-        min-width: 100vw;
+        min-width: 100%;
         left: 0;
     }
     .nav-buttons {
